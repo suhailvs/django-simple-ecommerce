@@ -1,28 +1,19 @@
-<p align="center">
-  <p align="center">
-    <a href="https://justdjango.com/?utm_source=github&utm_medium=logo" target="_blank">
-      <img src="https://assets.justdjango.com/static/branding/logo.svg" alt="JustDjango" height="72">
-    </a>
-  </p>
-  <p align="center">
-    The Definitive Django Learning Platform.
-  </p>
-</p>
+# djangoshopping
 
-# Django Simple E-commerce
+Forked from https://github.com/justdjango/django-simple-ecommerce
 
-This is a simple e-commerce website built with Django. It contains the essentials for adding products and capturing payments
-online.
 
-This project is part of a course on [JustDjango](https://learn.justdjango.com)
+If you want to have a quick look or just run the project locally, you can get started by either forking this repository or just cloning it directly:
 
----
+	git clone https://github.com/suhailvs/djangoshopping
 
-<div align="center">
+Ideally, create a [virtualenv](https://docs.python-guide.org/dev/virtualenvs/) and install the projects dependencies:
 
-<i>Other places you can find us:</i><br>
+	cd djangoshopping
+	pip install -r requirements.txt
+	cp ecom/.template.env ecom/.env
 
-<a href="https://www.youtube.com/channel/UCRM1gWNTDx0SHIqUJygD-kQ" target="_blank"><img src="https://img.shields.io/badge/YouTube-%23E4405F.svg?&style=flat-square&logo=youtube&logoColor=white" alt="YouTube"></a>
-<a href="https://www.twitter.com/justdjangocode" target="_blank"><img src="https://img.shields.io/badge/Twitter-%231877F2.svg?&style=flat-square&logo=twitter&logoColor=white" alt="Twitter"></a>
 
-</div>
+Start development server:
+
+	python manage.py runserver
